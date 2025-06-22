@@ -1,0 +1,594 @@
+{
+  "title": "Indian Sign Language (ISL) Manual Signs and Non-Manual Features (NMFs) Translation Guide",
+  "introduction": {
+    "overview": "ISL combines manual signs (hand movements) with non-manual features (NMFs), such as facial expressions, head movements, eye gaze, and body posture to convey nuanced meaning.",
+    "purpose": "This document provides a structured mapping of manual signs and NMFs, explaining how they interact to produce contextual translations."
+  },
+  "components": {
+    "manual_signs": [
+      {
+        "sign": "Ok",
+        "examples": [
+          {
+            "NMF": "None",
+            "translation": "Ok",
+            "explanation": "Neutral affirmation."
+          },
+          {
+            "NMF": "Raised Eyebrows + Forward Leaning",
+            "translation": "Are you ok?",
+            "explanation": "Question form. Indicates inquiry about well-being."
+          },
+          {
+            "NMF": "Smile + Relaxed Posture",
+            "translation": "It\u2019s all good.",
+            "explanation": "Positive affirmation with a relaxed tone."
+          },
+          {
+            "NMF": "Pursed Lips + Furrowed Brows",
+            "translation": "Is something wrong?",
+            "explanation": "Concerned inquiry."
+          }
+        ]
+      },
+      {
+        "sign": "Help",
+        "examples": [
+          {
+            "NMF": "None",
+            "translation": "Help",
+            "explanation": "Neutral request."
+          },
+          {
+            "NMF": "Wide Eyes + Raised Eyebrows",
+            "translation": "Help me urgently!",
+            "explanation": "Indicates a need for immediate assistance."
+          },
+          {
+            "NMF": "Pursed Lips + Downward Gaze",
+            "translation": "Do you need help?",
+            "explanation": "Polite or concerned offer of help."
+          },
+          {
+            "NMF": "Squinting Eyes + Pressed Lips",
+            "translation": "Why do you need help?",
+            "explanation": "Questioning the need for help."
+          }
+        ]
+      },
+      {
+        "sign": "Where",
+        "examples": [
+          {
+            "NMF": "None",
+            "translation": "Where?",
+            "explanation": "Simple question asking for location."
+          },
+          {
+            "NMF": "Squinting Eyes + Head Tilt",
+            "translation": "Where exactly?",
+            "explanation": "Seeking a specific or precise location."
+          },
+          {
+            "NMF": "Raised Eyebrows + Upward Gaze",
+            "translation": "Where is it?",
+            "explanation": "Neutral inquiry about the location of an object."
+          },
+          {
+            "NMF": "Furrowed Brows + Pursed Lips",
+            "translation": "Where are you hiding?",
+            "explanation": "Suspicious or accusatory tone."
+          }
+        ]
+      },
+      {
+        "sign": "Yes",
+        "examples": [
+          {
+            "NMF": "None",
+            "translation": "Yes",
+            "explanation": "Neutral affirmation."
+          },
+          {
+            "NMF": "Raised Eyebrows + Wide Smile",
+            "translation": "Yes, absolutely!",
+            "explanation": "Strong agreement or enthusiasm."
+          },
+          {
+            "NMF": "Pursed Lips + Slow Head Nod",
+            "translation": "Yes, but\u2026",
+            "explanation": "Hesitant or conditional agreement."
+          },
+          {
+            "NMF": "Slight Smile + Relaxed Posture",
+            "translation": "Yes, sure.",
+            "explanation": "Casual affirmation."
+          }
+        ]
+      },
+      {
+        "sign": "No",
+        "examples": [
+          {
+            "NMF": "None",
+            "translation": "No",
+            "explanation": "Neutral negation."
+          },
+          {
+            "NMF": "Furrowed Brows + Pressed Lips",
+            "translation": "Absolutely not!",
+            "explanation": "Strong denial or refusal."
+          },
+          {
+            "NMF": "Head Shake + Shrugged Shoulders",
+            "translation": "No, I don\u2019t know.",
+            "explanation": "Uncertainty or lack of knowledge."
+          },
+          {
+            "NMF": "Raised Eyebrows + Slight Smile",
+            "translation": "No, thank you.",
+            "explanation": "Polite refusal."
+          }
+        ]
+      }
+    ],
+    "nmf_catalog": {
+      "facial_expressions": [
+        {
+          "expression": "Raised Eyebrows",
+          "effect": "Adds a questioning tone",
+          "example": "Yes?"
+        },
+        {
+          "expression": "Furrowed Brows",
+          "effect": "Adds intensity or seriousness",
+          "example": "Why?"
+        },
+        {
+          "expression": "Wide Eyes",
+          "effect": "Indicates surprise or urgency",
+          "example": "Help me!"
+        },
+        {
+          "expression": "Pursed Lips",
+          "effect": "Suggests doubt, hesitation, or anger",
+          "example": "Are you sure?"
+        }
+      ],
+      "head_movements": [
+        {
+          "movement": "Nod",
+          "effect": "Affirmation or approval",
+          "example": "Yes."
+        },
+        {
+          "movement": "Shake",
+          "effect": "Negation or refusal",
+          "example": "No."
+        },
+        {
+          "movement": "Tilt",
+          "effect": "Curiosity or questioning",
+          "example": "Where is it?"
+        }
+      ],
+      "gaze_directions": [
+        {
+          "direction": "Upward",
+          "effect": "Thoughtfulness or wonder",
+          "example": "What\u2019s happening?"
+        },
+        {
+          "direction": "Downward",
+          "effect": "Shyness, sadness, or guilt",
+          "example": "I\u2019m sorry."
+        },
+        {
+          "direction": "Sideways",
+          "effect": "Pointing or indicating",
+          "example": "Over there."
+        }
+      ],
+      "body_postures": [
+        {
+          "posture": "Forward Leaning",
+          "effect": "Engagement or curiosity",
+          "example": "Are you listening?"
+        },
+        {
+          "posture": "Backward Leaning",
+          "effect": "Surprise or hesitation",
+          "example": "What happened?"
+        },
+        {
+          "posture": "Relaxed/Upright",
+          "effect": "Neutral or positive tone",
+          "example": "Everything is fine."
+        }
+      ]
+    },
+    "practical_use_cases": [
+      {
+        "scenario": "Emergency Communication",
+        "example": "Help + Wide Eyes + Raised Eyebrows \u2192 Indicates urgency."
+      },
+      {
+        "scenario": "Social Interaction",
+        "example": "Ok + Smile + Relaxed Posture \u2192 Positive agreement in casual conversation."
+      },
+      {
+        "scenario": "Questions",
+        "example": "Where + Squinting Eyes + Head Tilt \u2192 Seeks precise information."
+      },
+      {
+        "scenario": "Cultural Gestures",
+        "example": "Namaste + Bow + Smile \u2192 Formal greeting in Indian culture."
+      }
+    ]
+  },
+  "sign_descriptions": [
+    {
+      "Action Combination": "Pursed Lips + Head Tilt + Upward Gaze + Eyebrows Upward",
+      "Description": "Thinking or Confusion"
+    },
+    {
+      "Action Combination": "Sideways Gaze (Left, Right)",
+      "Description": "Pointing Towards"
+    },
+    {
+      "Action Combination": "Squinting Eyes + Lowered Eyebrows + Forward Leaning",
+      "Description": "Wh-type Question, Focusing"
+    },
+    {
+      "Action Combination": "Raised Eyebrows + Forward Leaning",
+      "Description": "Yes or No Questions"
+    },
+    {
+      "Action Combination": "Eyebrow Wiggle",
+      "Description": "Teasing Playfulness"
+    },
+    {
+      "Action Combination": "Raised Eyebrows + Open Mouth + Backward Leaning",
+      "Description": "Surprised or Excitement"
+    },
+    {
+      "Action Combination": "Pressed Lips + Lowered Eyebrows + Squinting Eyes",
+      "Description": "Angry"
+    },
+    {
+      "Action Combination": "Smile + wide-open eyes + relaxed or upright posture.",
+      "Description": "Happy"
+    },
+    {
+      "Action Combination": "Lowered eye + Head downward + lowered eyebrows + closed mouth",
+      "Description": "Sad or Embarrassment"
+    },
+    {
+      "Action Combination": "Head shake + pursed lips + shoulder shrug.",
+      "Description": "Doubt or uncertainty"
+    },
+    {
+      "Action Combination": "Head nod + slight smile.",
+      "Description": "Approval"
+    },
+    {
+      "Action Combination": "Close Lip Smile",
+      "Description": "Mild Happiness"
+    },
+    {
+      "Action Combination": "Wrinkled nose+ pursed lips+ slight backward lean.",
+      "Description": "Disgust"
+    },
+    {
+      "Action Combination": "Wide eyes + open mouth + backward lean",
+      "Description": "Fear"
+    },
+    {
+      "Action Combination": "Horizontal head shake+ static body posture.",
+      "Description": "Negation or Refusal"
+    },
+    {
+      "Action Combination": "Smile+ chest puffed+ slight upward head movement.",
+      "Description": "Proud or Pride"
+    },
+    {
+      "Action Combination": "bow your head+Smiletjoinpalms",
+      "Description": "Greeting"
+    },
+    {
+      "Action Combination": "tilt head to the side + head on joined palms",
+      "Description": "Tiredness or sleepiness"
+    },
+    {
+      "Action Combination": "half closed eyes + open mouth",
+      "Description": "hot (to feel)"
+    }
+  ],
+  "youtube_links": [
+    {
+      "Word": "Namaste",
+      "Non-manual feature": "Head down , Smile",
+      "Youtube Link": "https://youtu.be/oK0JcoPqnuY?si=ucEgI1e06t2yutMs"
+    },
+    {
+      "Word": "Welcome ",
+      "Non-manual feature": "Head down , Smile",
+      "Youtube Link": "https://youtu.be/UJHjwQ7yclM?si=k92D27qoudyQg7kf"
+    },
+    {
+      "Word": "Excuse me",
+      "Non-manual feature": "Leaning Forward  , Eyebrows Down",
+      "Youtube Link": "https://youtu.be/SMEVutE0yBw?si=uh3lNt1sFp9ceBii"
+    },
+    {
+      "Word": "sleep ",
+      "Non-manual feature": "Head Right Tilt , Close Eye",
+      "Youtube Link": "https://youtu.be/nIBj-sIAi3s?si=YNeZI3N7gs1zTQdE"
+    },
+    {
+      "Word": "Eat/Drink",
+      "Non-manual feature": "Open Mouth",
+      "Youtube Link": "https://youtu.be/Cgs1MibMXJ0?si=ED_d8e8fUU03grEo"
+    },
+    {
+      "Word": "Big ",
+      "Non-manual feature": "Wide Eyes , Eyebrows UP",
+      "Youtube Link": "https://youtu.be/BFYTOi2N1w8?si=-NnwQyNzH30WiCSH"
+    },
+    {
+      "Word": "Small",
+      "Non-manual feature": "Eyebrows Down , Pursed Lips",
+      "Youtube Link": "https://youtu.be/k0pUR0HlaNw?si=bWTcvl5h_nOrV-Ip"
+    },
+    {
+      "Word": "loss ",
+      "Non-manual feature": "Pursed Lips",
+      "Youtube Link": "https://youtu.be/1fGEDf7FSXY?list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&t=241"
+    },
+    {
+      "Word": "Thank you",
+      "Non-manual feature": "Smile",
+      "Youtube Link": "https://youtu.be/wK8amEJAK1Y?si=gGCerql6Ob0-bPzu"
+    },
+    {
+      "Word": "Don't",
+      "Non-manual feature": "Horizontal Head Shake",
+      "Youtube Link": "https://youtu.be/PEWcunm1QG4?si=Z2XOhQtDgtn7kxDt"
+    },
+    {
+      "Word": "Extra",
+      "Non-manual feature": "Pursed Lips / Open Mouth",
+      "Youtube Link": "https://youtu.be/HT5VidjmJ9o?t=203"
+    },
+    {
+      "Word": "Tomorrow",
+      "Non-manual feature": "Eyebrows Up",
+      "Youtube Link": "https://youtu.be/0DYb-qL1t0A?si=351sdjxrLnfUPSi2"
+    },
+    {
+      "Word": "Hungry ",
+      "Non-manual feature": "Eyebrows down",
+      "Youtube Link": "https://youtu.be/SgVLj-CHvZ4?t=32"
+    },
+    {
+      "Word": "Food",
+      "Non-manual feature": "Open Mouth",
+      "Youtube Link": "https://youtu.be/dTI8mMq81eM?si=JpTi5CScCI3rM9nW"
+    },
+    {
+      "Word": "Cold",
+      "Non-manual feature": "Pursed Lips ",
+      "Youtube Link": "https://youtu.be/EdGBkBi0xQ4?si=7fuJjY4Na0FXqsks"
+    },
+    {
+      "Word": "Wake Up",
+      "Non-manual feature": "Wide Eyes , Eyebrows UP",
+      "Youtube Link": "https://youtu.be/FXliBRJMltY?t=16"
+    },
+    {
+      "Word": "Bed",
+      "Non-manual feature": "Head Right Tilt , Close Eye",
+      "Youtube Link": "https://youtu.be/HaMafb3Bv_U?t=30"
+    },
+    {
+      "Word": "Roar",
+      "Non-manual feature": "Open Mouth",
+      "Youtube Link": "https://youtu.be/Rs5qSbsnJKs"
+    },
+    {
+      "Word": "Bad",
+      "Non-manual feature": "Eyebrows down , Neutral Lips",
+      "Youtube Link": "https://youtu.be/9uSE_BJx1Po?si=Rwu39gX0aR1Ao3P2"
+    },
+    {
+      "Word": "A Lot",
+      "Non-manual feature": "Closed Eyes , Open Mouth",
+      "Youtube Link": "https://youtu.be/HwgChfSHtlI?si=otVnRXQuxxB4mWp7"
+    },
+    {
+      "Word": "Accurate ",
+      "Non-manual feature": "pressed lips , Eyebrows Up",
+      "Youtube Link": "https://youtu.be/z0vK4N3crNE?si=tyJeua6AHZa_DbGt"
+    },
+    {
+      "Word": "Accuse",
+      "Non-manual feature": "Eyebrows down , Neutral Lips",
+      "Youtube Link": "https://youtu.be/r3HsR87-sN8?si=ys3XzEhnZ6qb3vwO"
+    },
+    {
+      "Word": "Advantage",
+      "Non-manual feature": "Vertical Head shake , Eyebrows Up",
+      "Youtube Link": "https://youtu.be/puQHunAHML8?si=zumtQ6NjLIUhFE7G"
+    },
+    {
+      "Word": "Aeroplane",
+      "Non-manual feature": "Head Up , Eyebrows Up",
+      "Youtube Link": "https://youtu.be/7-U7JLrcGHo?si=EPtDCqe6D0msyscD"
+    },
+    {
+      "Word": "Again ",
+      "Non-manual feature": "Eyebrows Up",
+      "Youtube Link": "https://youtu.be/aO1B2sAfigI?si=9COrdq13EJa3fLlu"
+    },
+    {
+      "Word": "Air ",
+      "Non-manual feature": "Pursed Lips",
+      "Youtube Link": "https://youtu.be/VdR3IR0wqDY?si=KEVVklz5IGtzVdGQ"
+    },
+    {
+      "Word": "Alike/Similiar",
+      "Non-manual feature": "Horizontal Head Shake , Neutral Lips + Eyebrows down",
+      "Youtube Link": "https://youtu.be/Unvi9R9Qg8w?si=B_WgeLGqC-ukzopb"
+    },
+    {
+      "Word": "Alive",
+      "Non-manual feature": "Open Mouth + Eyebrows Up , Wide eyes",
+      "Youtube Link": "https://youtu.be/5xmJG9zQ9jw?si=LRK9GK15wJ1P-oWt"
+    },
+    {
+      "Word": "All",
+      "Non-manual feature": "Eyebrows Up",
+      "Youtube Link": "https://youtu.be/NNAmDtu46B0?si=nJpdqOo-jsKwz-hQ"
+    },
+    {
+      "Word": "Almost",
+      "Non-manual feature": "Eyebrows down , Neutral Lips",
+      "Youtube Link": "https://youtu.be/F1AvK4jxMuA?si=wBx3MISqG_FXN5nw"
+    },
+    {
+      "Word": "Alone ",
+      "Non-manual feature": "Pursed Lips , Eyebrows Up",
+      "Youtube Link": "https://youtu.be/jc2G1aW5DQU?si=SRdtLAFt861J60J6"
+    },
+    {
+      "Word": "Always ",
+      "Non-manual feature": "Open Mouth ",
+      "Youtube Link": "https://youtu.be/iWpgiYUT23c?si=Fi2RTxi6E1aN1lXo"
+    },
+    {
+      "Word": "Among ",
+      "Non-manual feature": "Eyebrows Up , Wide Eyes",
+      "Youtube Link": "https://youtu.be/LnLxVWQ6yY8?si=X0Pb1VgmdL9mrq2K"
+    },
+    {
+      "Word": "Analysis ",
+      "Non-manual feature": "Eyebrows down , Neutral Lips",
+      "Youtube Link": "https://youtu.be/zlGi_SB04cI?si=8uvJ_2yFdf4kbVZU"
+    },
+    {
+      "Word": "Anonymous ",
+      "Non-manual feature": "Horizontal Head Shake , Neutral Lips , Eyebrows down",
+      "Youtube Link": "https://youtu.be/f6ncKQ2HlJs?si=6KaEuaV1Ku2EslBd"
+    },
+    {
+      "Word": "Any ",
+      "Non-manual feature": "Eyebrows Down , Open Mouth",
+      "Youtube Link": "https://youtu.be/vXg5mjo2Lpc?si=8LNFcYnwUA6mtoZ0"
+    },
+    {
+      "Word": "Approach",
+      "Non-manual feature": "Pursed lips , Eyebrows Down",
+      "Youtube Link": "https://youtu.be/s5mQsATayMM?si=EUFfMBGAwfGl4xn6"
+    },
+    {
+      "Word": "Around ",
+      "Non-manual feature": "Pursed Lips , Eyebrows Up",
+      "Youtube Link": "https://youtu.be/gzlymlA-sW8?si=2rVOelPOLHFj6ktM"
+    },
+    {
+      "Word": "Away ",
+      "Non-manual feature": "Eyebrows Up, Neutral Lips",
+      "Youtube Link": "https://youtu.be/8pfW3gmsue8?si=ZPoC_oncYcC5FVFY"
+    },
+    {
+      "Word": "Balance",
+      "Non-manual feature": "Eyebrows Up, Neutral Lips",
+      "Youtube Link": "https://youtu.be/G-xw6dwoiBc?si=3tqWjc-OPaGWvoMM"
+    },
+    {
+      "Word": "Bath ",
+      "Non-manual feature": "Head down , Neutral Lips",
+      "Youtube Link": "https://youtu.be/LaRKg5EJtA4?si=8Qlqt5HHpOwlKml6"
+    },
+    {
+      "Word": "Best",
+      "Non-manual feature": "Eyebrows Up , Wide Eyes",
+      "Youtube Link": "https://youtu.be/-oJL0D3n2e0?si=JKpdPWE9U4poPjXe"
+    },
+    {
+      "Word": "Blow ",
+      "Non-manual feature": "Pursed Lips , Eyebrows Up , Wide Eyes",
+      "Youtube Link": "https://youtu.be/Sx_efrmUFH0?si=3XW20mqegHOgwHe3"
+    },
+    {
+      "Word": "Call ",
+      "Non-manual feature": "Pursed Lips , Eyebrows Up , Wide Eyes",
+      "Youtube Link": "https://youtu.be/GiOVSFEP2UQ?si=b-6vuRnZrv8654Cy"
+    },
+    {
+      "Word": "Calm",
+      "Non-manual feature": "Closed Eyes , Vertical 2 Head Shake",
+      "Youtube Link": "https://youtu.be/bdHi2Gyruqw?si=k-gmYXjwDmG4N6Ye"
+    },
+    {
+      "Word": "Clear ",
+      "Non-manual feature": "Eyebrows Up , Wide Eyes",
+      "Youtube Link": "https://youtu.be/a1T4s6FhcSE?si=88PP4dS00IVnV6HQ"
+    },
+    {
+      "Word": "Close-Up",
+      "Non-manual feature": "Leaning Forward , Wide Eyes , Eyebrows Up",
+      "Youtube Link": "https://youtu.be/P29jupnZniw?si=63acwt8imFwyBzGM"
+    },
+    {
+      "Word": "Cloud ",
+      "Non-manual feature": "Head  Up",
+      "Youtube Link": "https://youtu.be/ygxGB0K2M8A?si=aTTSFsAxhd_hs0Wc"
+    },
+    {
+      "Word": "Coat ",
+      "Non-manual feature": "Shoulder Shrug",
+      "Youtube Link": "https://youtu.be/7I3kECWTA4w?si=DHgZ8aIe_w2uKqu8"
+    },
+    {
+      "Word": "Communicate",
+      "Non-manual feature": "Eyebrows Up",
+      "Youtube Link": "https://youtu.be/XI4MKE3j4no?si=MGvkp4ETPc4iZlGa"
+    },
+    {
+      "Word": "Cool ",
+      "Non-manual feature": "Eyebrows Down , Pursed Lips",
+      "Youtube Link": "https://youtu.be/7qgJBHXKk_w?si=jeZEqIt8Dfu4Z-7D"
+    },
+    {
+      "Word": "Die ",
+      "Non-manual feature": "Closed Eyes , Neutral lips",
+      "Youtube Link": "https://youtu.be/9BJ5ZQixW34?si=6BSNXilAeMSRFCqF"
+    },
+    {
+      "Word": "Discuss",
+      "Non-manual feature": "Eyebrows Down",
+      "Youtube Link": "https://youtu.be/1IZPvJn7an0?si=2cRYE6dX9KX2vT9s"
+    },
+    {
+      "Word": "Double",
+      "Non-manual feature": "Eyebrows Up , Wide Eyes , Neutral lips",
+      "Youtube Link": "https://youtu.be/tY45mTvKGKc?si=60zWozaCg4EbXhBT"
+    },
+    {
+      "Word": "Dry ",
+      "Non-manual feature": "Eyebrows down , Neutral Lips",
+      "Youtube Link": "https://youtu.be/y5LmYGbr428?si=SaLY-DPgfDWByXZE"
+    },
+    {
+      "Word": "Dust",
+      "Non-manual feature": "Eyebrows down , Neutral Lips",
+      "Youtube Link": "https://youtu.be/ACJG5VeKrvQ?si=BSCslfUy6lYuB0-d"
+    },
+    {
+      "Word": "Shout ",
+      "Non-manual feature": "open mouth",
+      "Youtube Link": "https://youtu.be/eGupva-rFEA?si=YVBYy_13lo8T2h4x"
+    }
+  ]
+}
